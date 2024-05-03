@@ -1,0 +1,33 @@
+{
+  "name": "linda-lz-contracts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-contracts": "sol-merger \"./contracts/*.sol\" ./build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-verify": "^2.0.4",
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.3.0-beta.13",
+    "@types/chai": "^4.3.11",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "^20.11.10",
+    "chai": "^5.0.3",
+    "hardhat": "^2.19.4",
+    "hardhat-deploy": "^0.11.45",
+    "mocha": "^10.2.0",
+    "sol-merger": "^4.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@layerzerolabs/lz-evm-oapp-v2": "^2.0.25",
+    "@openzeppelin/contracts": "^4.9.5",
+    "@poanet/solidity-flattener": "^3.0.9",
+    "dotenv": "^16.4.1",
+    "ethers": "^5.7.2"
+  }
+}
